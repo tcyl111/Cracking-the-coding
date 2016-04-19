@@ -21,7 +21,7 @@ public:
         }
         return true;
     }
-/* biggest diff is less than 32, such as all lower letters */
+/* biggest diff is less than size of data type, such as int(32) for all lower case letters long(64) can include upper case*/
     bool isUniqueChars_2(string str) {
         int check = 0;
         int len = str.length();
